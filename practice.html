@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onclick button</title>
+    <link rel="stylesheet" href="./practice.css">
+
+
+</head>
+
+<body>
+
+    <div class="slider">
+        <div class="thumbnail " data-text="Apple" data-color="#fc4a55" onclick="showBigImage(this)">
+            <img src="./images/apple.img.png" alt="">
+
+        </div>
+        <div class="thumbnail" data-text="mango" data-color="#ffcc02" onclick="showBigImage(this)">
+            <img src="./images/mango.img.png" alt="">
+
+        </div>
+        <div class="thumbnail" data-text="watermelon" data-color="#92ba3c" onclick="showBigImage(this)">
+            <img src="./images/watermelon.img.png" alt="" >
+
+        </div>
+        <div class="thumbnail" data-text="pineapple" data-color="#ffb42b" onclick="showBigImage(this)">
+            <img src="./images/pineapple.img.png" alt="">
+
+        </div>
+    </div>
+
+
+
+
+    <h2 class="text">Apple</h2>
+    <div class="bigimage">
+        <img src="./images/apple.img.png" id="bigimage">
+    </div>
+
+    <script src="./practice.js"></script>
+</body>
+
+</html>
